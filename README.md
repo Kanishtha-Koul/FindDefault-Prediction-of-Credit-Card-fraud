@@ -2,7 +2,8 @@
 
 **Fraud Detection with Machine Learning**
 
-This project applies machine learning techniques to detect fraudulent transactions in credit card data. The notebook implements data preprocessing, class imbalance handling, and model evaluation to develop an effective solution for binary classification.
+    This project applies machine learning techniques to detect fraudulent transactions in credit card data. The notebook implements data preprocessing, class imbalance handling, and model 
+    evaluation to develop an effective solution for binary classification.
 
 **Table of Contents**
   
@@ -15,8 +16,8 @@ This project applies machine learning techniques to detect fraudulent transactio
     •	Models Implemented
   
     •	Evaluation Metrics
-  
-     •	Dependencies
+    
+    •	Dependencies
   
     •	How to Run
   
@@ -26,7 +27,7 @@ This project applies machine learning techniques to detect fraudulent transactio
 
 The dataset includes anonymized features obtained through Principal Component Analysis (PCA) and contains two untransformed features: Time and Amount. The target variable is Class, where:
 
-     •	0 represents non-fraudulent transactions
+    •	0 represents non-fraudulent transactions
   
     •	1 represents fraudulent transactions
 
@@ -92,7 +93,7 @@ The dataset includes anonymized features obtained through Principal Component An
   
     •	Libraries:
     
-       o	pandas
+      o	pandas
     
       o	numpy
     
@@ -129,4 +130,4 @@ The dataset includes anonymized features obtained through Principal Component An
 
 **Acknowledgments**
 
-This project leverages the creditcard.csv dataset and techniques for handling imbalanced datasets.
+    This project leverages the creditcard.csv dataset and techniques for handling imbalanced datasets.
