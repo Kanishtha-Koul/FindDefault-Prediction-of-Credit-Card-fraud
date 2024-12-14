@@ -60,11 +60,11 @@ The dataset includes anonymized features obtained through Principal Component An
 
 **Key Techniques**
 
-    **•	Synthetic Minority Oversampling Technique (SMOTE):** Augmented the minority class to address class imbalance.
+     •	Synthetic Minority Oversampling Technique (SMOTE): Augmented the minority class to address class imbalance.
 
-    **•	Feature Scaling:** Normalized the range of numerical features.
+     •	Feature Scaling: Normalized the range of numerical features.
   
-    **•	Model Persistence:** Serialized the trained model and dataset using pickle for future use.
+     •	Model Persistence: The trained model and dataset were serialized using pickle for future use.
   
 **Models Implemented**
   
@@ -108,17 +108,17 @@ The dataset includes anonymized features obtained through Principal Component An
 
 **How to Run**
 
-1.	Clone this repository.
-  
-2.	Install dependencies using:
-  
-    pip install -r requirements.txt
-  
-3.	Open the notebook in Jupyter:
-
-    jupyter notebook Untitled.ipynb
-
-4.	Run all cells sequentially.
+    1.	Clone this repository.
+      
+    2.	Install dependencies using:
+      
+        pip install -r requirements.txt
+      
+    3.	Open the notebook in Jupyter:
+    
+        jupyter notebook Untitled.ipynb
+    
+    4.	Run all cells sequentially.
 
 
 **Results**
