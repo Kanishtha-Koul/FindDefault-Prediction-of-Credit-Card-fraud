@@ -93,19 +93,19 @@ The dataset includes anonymized features obtained through Principal Component An
   
     •	Libraries:
     
-      o	pandas
+          o	pandas
     
-      o	numpy
+          o	numpy
     
-      o	seaborn
+          o	seaborn
     
-      o	matplotlib
+          o	matplotlib
     
-      o	scikit-learn
+          o	scikit-learn
     
-      o	imbalanced-learn
+          o	imbalanced-learn
     
-      o	pickle
+          o	pickle
 
 **How to Run**
 
