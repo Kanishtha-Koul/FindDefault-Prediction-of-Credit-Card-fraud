@@ -2,8 +2,8 @@
 
 **Fraud Detection with Machine Learning**
 
-    This project applies machine learning techniques to detect fraudulent transactions in credit card data. The notebook implements data preprocessing, class imbalance handling, and model 
-    evaluation to develop an effective solution for binary classification.
+    This project applies machine learning techniques to detect fraudulent transactions in credit card data.
+    The notebook implements data preprocessing, class imbalance handling, and model evaluation to develop an effective solution for binary classification.
 
 **Table of Contents**
   
