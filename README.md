@@ -6,105 +6,105 @@ This project applies machine learning techniques to detect fraudulent transactio
 
 **Table of Contents**
   
-  •	Dataset
+    •	Dataset
   
-  •	Project Workflow
+    •	Project Workflow
   
-  •	Key Techniques
+    •	Key Techniques
   
-  •	Models Implemented
+    •	Models Implemented
   
-  •	Evaluation Metrics
+    •	Evaluation Metrics
   
-  •	Dependencies
+     •	Dependencies
   
-  •	How to Run
+    •	How to Run
   
-  •	Results
+    •	Results
 
 **Dataset**
 
 The dataset includes anonymized features obtained through Principal Component Analysis (PCA) and contains two untransformed features: Time and Amount. The target variable is Class, where:
 
-  •	0 represents non-fraudulent transactions
+     •	0 represents non-fraudulent transactions
   
-  •	1 represents fraudulent transactions
+    •	1 represents fraudulent transactions
 
 **Project Workflow**
 
 **1.	Data Exploration and Visualization**
 
-  •	Analyzed class distribution and identified significant class imbalance.
+    •	Analyzed class distribution and identified significant class imbalance.
   
-  •	Visualized features and their distributions.
+    •	Visualized features and their distributions.
 
 **2.	Data Preprocessing**
 
-  •	Scaled the Amount feature using StandardScaler.
+    •	Scaled the Amount feature using StandardScaler.
   
-  •	Dropped the Time feature as it is irrelevant.
+    •	Dropped the Time feature as it is irrelevant.
 
 **3.	Train-Test Split**
 
-  •	Split the dataset into training (70%) and testing (30%) sets using train_test_split.
+    •	Split the dataset into training (70%) and testing (30%) sets using train_test_split.
 
 **4.	Class Imbalance Handling**
 
-  •	Applied Synthetic Minority Oversampling Technique (SMOTE) to balance the dataset.
+    •	Applied Synthetic Minority Oversampling Technique (SMOTE) to balance the dataset.
 
 **5.	Model Implementation and Evaluation**
 
-  •	Experimented with Decision Trees and Random Forests.
+    •	Experimented with Decision Trees and Random Forests.
 
-  •	Compared models using various evaluation metrics.
+    •	Compared models using various evaluation metrics.
 
 **Key Techniques**
 
-  **•	Synthetic Minority Oversampling Technique (SMOTE):** Augmented the minority class to address class imbalance.
+    **•	Synthetic Minority Oversampling Technique (SMOTE):** Augmented the minority class to address class imbalance.
 
-  **•	Feature Scaling:** Normalized the range of numerical features.
+    **•	Feature Scaling:** Normalized the range of numerical features.
   
-  **•	Model Persistence:** Serialized the trained model and dataset using pickle for future use.
+    **•	Model Persistence:** Serialized the trained model and dataset using pickle for future use.
   
 **Models Implemented**
   
-  •	Decision Tree Classifier
+    •	Decision Tree Classifier
 
-  •	Random Forest Classifier
+    •	Random Forest Classifier
   
 **Evaluation Metrics**
 
-  •	Accuracy
+    •	Accuracy
 
-  •	Precision
+    •	Precision
   
-  •	Recall
+    •	Recall
 
-  •	F1 Score
+    •	F1 Score
   
-  •	Confusion Matrix
+    •	Confusion Matrix
   
 **Dependencies**
 
-  •	Python
+    •	Python
   
-  •	Jupyter Notebook
+    •	Jupyter Notebook
   
-  •	Libraries:
+    •	Libraries:
     
-    o	pandas
+       o	pandas
     
-    o	numpy
+      o	numpy
     
-    o	seaborn
+      o	seaborn
     
-    o	matplotlib
+      o	matplotlib
     
-    o	scikit-learn
+      o	scikit-learn
     
-    o	imbalanced-learn
+      o	imbalanced-learn
     
-    o	pickle
+      o	pickle
 
 **How to Run**
 
@@ -112,20 +112,20 @@ The dataset includes anonymized features obtained through Principal Component An
   
 2.	Install dependencies using:
   
-  pip install -r requirements.txt
+    pip install -r requirements.txt
   
 3.	Open the notebook in Jupyter:
 
-  jupyter notebook Untitled.ipynb
+    jupyter notebook Untitled.ipynb
 
 4.	Run all cells sequentially.
 
 
 **Results**
 
-  •	The Random Forest classifier outperformed the Decision Tree classifier in both imbalanced and resampled datasets.
+    •	The Random Forest classifier outperformed the Decision Tree classifier in both imbalanced and resampled datasets.
 
-  •	Using SMOTE, the Random Forest achieved over 99% accuracy, effectively classifying fraudulent transactions with minimal misclassifications.
+    •	Using SMOTE, the Random Forest achieved over 99% accuracy, effectively classifying fraudulent transactions with minimal misclassifications.
 
 **Acknowledgments**
 
