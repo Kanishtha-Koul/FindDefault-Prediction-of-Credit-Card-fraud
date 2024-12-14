@@ -93,19 +93,19 @@ The dataset includes anonymized features obtained through Principal Component An
   
     •	Libraries:
     
-          o	pandas
+                  o	pandas
     
-          o	numpy
+                  o	numpy
     
-          o	seaborn
+                  o	seaborn
     
-          o	matplotlib
+                  o	matplotlib
     
-          o	scikit-learn
+                  o	scikit-learn
     
-          o	imbalanced-learn
+                  o	imbalanced-learn
     
-          o	pickle
+                  o	pickle
 
 **How to Run**
 
@@ -113,11 +113,11 @@ The dataset includes anonymized features obtained through Principal Component An
       
     2.	Install dependencies using:
       
-        pip install -r requirements.txt
+            pip install -r requirements.txt
       
     3.	Open the notebook in Jupyter:
     
-        jupyter notebook Untitled.ipynb
+            jupyter notebook Untitled.ipynb
     
     4.	Run all cells sequentially.
 
